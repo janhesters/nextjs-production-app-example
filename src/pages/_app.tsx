@@ -2,6 +2,7 @@ import 'styles/colors.css';
 
 import { ThemeProvider } from '@emotion/react';
 import type { AppProps } from 'next/app';
+import { appWithTranslation } from 'next-i18next';
 import { Provider } from 'react-redux';
 import { useStore } from 'redux/store';
 import GlobalStyles from 'styles/global-styles';
@@ -21,4 +22,4 @@ function MyApp({ Component, pageProps }: AppProps) {
   );
 }
 
-export default MyApp;
+export default appWithTranslation(MyApp);
