@@ -1,3 +1,5 @@
+import { withTranslation } from 'next-i18next';
+
 import LandingPageComponent from './landing-page-component';
 
-export default LandingPageComponent;
+export default withTranslation()(LandingPageComponent);
