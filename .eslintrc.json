@@ -17,6 +17,7 @@
     "plugin:jest-dom/recommended",
     "plugin:prettier/recommended",
     "plugin:unicorn/recommended",
+    "plugin:cypress/recommended",
     "prettier",
     "prettier/react",
     "prettier/unicorn",
@@ -32,6 +33,7 @@
   },
   "plugins": [
     "@typescript-eslint",
+    "cypress",
     "jest",
     "jest-dom",
     "testing-library",
@@ -81,6 +83,21 @@
       }
     ]
   },
+  "overrides": [
+    {
+      "files": ["*.spec.ts"],
+      "rules": {
+        "jest/expect-expect": [
+          "error",
+          {
+            "assertFunctionNames": ["expect", "cy.*"]
+          }
+        ],
+        "jest/valid-expect": "off",
+        "jest/valid-expect-in-promise": "off"
+      }
+    }
+  ],
   "settings": {
     "import/resolver": {
       "node": {
