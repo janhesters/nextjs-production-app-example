@@ -11,7 +11,22 @@
   --red-800: #e30000;
 
   --blue-400: #0070f3;
+}
 
+.dark-mode {
+  --primary: var(--blue-400);
+  --primary-background: var(--black-100);
+  --primary-background-alt: var(--black-200);
+  --primary-border: var(--black-300);
+  --primary-contrast: var(--white-100);
+  --primary-text: var(--white-100);
+
+  --danger: var(--red-800);
+  --danger-contrast: var(--white-100);
+  --danger-light: var(--red-200);
+}
+
+.light-mode {
   --primary: var(--blue-400);
   --primary-background: var(--white-100);
   --primary-background-alt: var(--white-200);
