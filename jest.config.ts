@@ -5,4 +5,5 @@ export default {
   },
   setupFilesAfterEnv: ['./jest.setup.ts'],
   setupFiles: ['<rootDir>/src/tests/setup-environment-variables.js'],
+  testPathIgnorePatterns: ['<rootDir>/cypress/'],
 };
