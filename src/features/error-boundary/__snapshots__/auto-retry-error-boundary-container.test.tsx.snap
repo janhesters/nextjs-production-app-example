@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AutoRetryErrorBoundary container renders its children without adding UI 1`] = `
+<div>
+  <div>
+    This is fine.
+  </div>
+</div>
+`;
