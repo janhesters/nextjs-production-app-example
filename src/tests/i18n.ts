@@ -1,10 +1,10 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
-import common from '../../public/static/locales/en/common.json';
-import darkMode from '../../public/static/locales/en/dark-mode.json';
-import errorBoundary from '../../public/static/locales/en/error-boundary.json';
-import landing from '../../public/static/locales/en/landing.json';
+import common from '../../public/locales/en/common.json';
+import darkMode from '../../public/locales/en/dark-mode.json';
+import errorBoundary from '../../public/locales/en/error-boundary.json';
+import landing from '../../public/locales/en/landing.json';
 
 const resources = {
   en: {
