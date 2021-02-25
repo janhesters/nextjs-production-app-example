@@ -20,7 +20,7 @@
     "@emotion/styled": "^11.1.5",
     "@reduxjs/toolkit": "^1.5.0",
     "next": "10.0.7",
-    "next-i18next": "^8.0.0",
+    "next-i18next": "^8.0.1",
     "next-seo": "^4.20.0",
     "polished": "^4.1.1",
     "react": "17.0.1",
