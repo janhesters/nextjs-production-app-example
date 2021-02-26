@@ -9871,10 +9871,10 @@ strip-json-comments@~2.0.1:
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
   integrity sha1-PFMZQukIwml8DsNEhYwobHygpgo=
 
-styled-breakpoints@^9.0.9:
-  version "9.0.9"
-  resolved "https://registry.yarnpkg.com/styled-breakpoints/-/styled-breakpoints-9.0.9.tgz#cc361e2b31544fc1ea3a21bd0a137bd4644a4835"
-  integrity sha512-C9fvmpVDDdGlcMhwe4DYyVsS6JtHfkA54il+T3ghwR5+ygaxou5hV0av7dPgzAqK5vP7OWe+mRdcYFZo9Jtqjw==
+styled-breakpoints@^9.0.12:
+  version "9.0.12"
+  resolved "https://registry.yarnpkg.com/styled-breakpoints/-/styled-breakpoints-9.0.12.tgz#993af84ad01ff41a686bafb67d7278b7da531284"
+  integrity sha512-41brWBbQ2yRsb4K2pIh42C1z/aEFIaI1SSHBEuPRK1GAcfxwSY1/2gUgIUnV0sLGbf6PLAGtq+pjXvqP6i5Zog==
 
 styled-jsx@3.3.2:
   version "3.3.2"
