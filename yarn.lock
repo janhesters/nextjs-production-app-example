@@ -7487,10 +7487,10 @@ nerf-dart@^1.0.0:
   resolved "https://registry.yarnpkg.com/nerf-dart/-/nerf-dart-1.0.0.tgz#e6dab7febf5ad816ea81cf5c629c5a0ebde72c1a"
   integrity sha1-5tq3/r9a2Bbqgc9cYpxaDr3nLBo=
 
-next-i18next@^8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/next-i18next/-/next-i18next-8.0.0.tgz#4b8592137089033a25a88fadf29660207fa5363d"
-  integrity sha512-oGfvGjDPEoA/XqWD3lkwyWwgvDypPPo7B0cQvzKiDoiuCZ2uuV5Ao36kNsZcAvu9PrmjcZVMg3pu/XM5KKyzZg==
+next-i18next@^8.0.2:
+  version "8.0.2"
+  resolved "https://registry.yarnpkg.com/next-i18next/-/next-i18next-8.0.2.tgz#8d594058a88b1dd843826df5454acea232eec8e4"
+  integrity sha512-8CNkDSivGa//aVFX6uYTTEPVqDfvIF0dIM7HmDx4fnzo0XcCvZ5OWJ6NvmeqykObIU8KL7H/x/kg3IUkl1JtPA==
   dependencies:
     core-js "^3"
     hoist-non-react-statics "^3.2.0"
