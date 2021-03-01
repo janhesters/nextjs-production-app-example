@@ -2,7 +2,42 @@ import { extractCookies } from 'utils/extract-cookies';
 
 import validateForbiddenMethods from '../support/utils';
 
+const getCurrentUserRoute = `/api/user`;
 const loginRoute = `/api/login`;
+
+// TODO: Login and logout using the UI, as well as logout using the API.
+// Depends on Magic updates coming Q2 2021.
+
+describe('get current user handler', () => {
+  context('GET', () => {
+    it('returns a 200 with the user when the user is logged in', () => {
+      cy.loginByCookie().then(session => {
+        cy.request(getCurrentUserRoute).then(response => {
+          expect(response.status).to.equal(200);
+
+          const actual = response.body;
+          const expected = { user: session };
+
+          expect(actual).to.deep.equal(expected);
+        });
+      });
+    });
+
+    it('returns null if the user is logged out', () => {
+      cy.request(getCurrentUserRoute).then(response => {
+        expect(response.status).to.equal(200);
+
+        const actual = response.body;
+        // eslint-disable-next-line unicorn/no-null
+        const expected = { user: null };
+
+        expect(actual).to.deep.equal(expected);
+      });
+    });
+  });
+
+  validateForbiddenMethods(['POST', 'PUT', 'DELETE'], getCurrentUserRoute);
+});
 
 describe('login handler', () => {
   context('GET', () => {
